@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+<style> 
+#event{
+    background-color: green;
+    border:30px solid green;
+    
+}
+P{
+    color:white;
+    text-align: center;
+    background-color: black;
+}
+.container{
+    margin-top: 5px;
+}
+
+
+
+    
+
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto" id="event">
+            <p>EVENT I</p>
+            <p style="background-color: red;">Number of available seats:29</p>
+            
+            <div class="card">
+                <div class="card-body">
+                    <form action="" method="POST">
+                   <div class="form-group">
+                    <label for="name">Name:</label>
+                    
+                    
+                    <input type="text" name="name" class="form-control" id="name" >
+                   </div>
+                   <div class="form-group">
+                    <label for="email">Email:</label>
+                    
+                    
+                    <input type="email" name="email" class="form-control" id="name" >
+                   </div>
+                   <div class="form-group">
+                    <label for="phone no">Phone No:</label>
+                    
+                    
+                    <input type="tel maxlength=10" name="phone" class="form-control" id="phone" >
+                   </div>
+                   <div class="form-group">
+                    <label for="exampleFormControlSelect1">Numbers of seats:</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option></option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Name of attendee 2:</label>
+                    
+                    
+                    <input type="text" name="name" class="form-control" id="name" >
+                   </div><br>
+                   
+                   <div class="form-group">
+                    
+                    <input class="btn btn-success" type="submit" value="Submit">
+                    <button class="btn btn-danger"type="cancel" onclick="javascript:window.location='http://127.0.0.1:5500/index.html';">Cancel</button>
+                </form>
+                   
+
+                   </div>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+           
+                
+                
+            
+        </div>
+    </div>
+    
+</body>
+</html>
